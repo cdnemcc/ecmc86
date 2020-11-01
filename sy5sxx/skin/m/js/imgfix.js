@@ -1,0 +1,7 @@
+/**
+ * 119you.com - 119手游网
+ * @version v1.0
+ * @link http://m.119you.com
+ * @author MidFar(midfar@qq.com) http://midfar.com
+ */
+!function(){function i(i,t,n){if(i.naturalWidth){var a=i.naturalWidth,r=i.naturalHeight;t(a,r)}else{var e=new window.Image;e.src=i.src,e.onload=function(){"function"==typeof t&&t(e.width,e.height)},e.onerror=function(){"function"==typeof n&&n()}}}function t(t){$(t).hide().before('<img src="/css/main/images/loading.gif" style="width:30px; height:30px; position:absolute; left:50%; top:50%; margin-left:-15px; margin-top:-15px;" />');var n=$(t).parent().width(),a=$(t).parent().height();!function(t,n,a){i(t,function(i,r){var e=n/i,o=a/r,g=0,h=0,p=0;g=Math.max(e,o),h=i*g,p=r*g;var f=(h-n)/2,s=(p-a)/2,m=-s+"px",c="block";$(t).hasClass("imgfixhidden")&&(c="hidden"),$(t).css({width:h+"px",height:p+"px",position:"absolute",marginLeft:-f+"px",marginTop:m,display:c}).prev().remove()},function(){var i=$.trim($(t).attr("data-img404")),n=$.trim($(t).attr("data-img404w")),a=$.trim($(t).attr("data-img404h"));""!==i&&""!==n&&""!==a||(i="/css/main/images/404.png",n=23,a=23),$(t).prev().attr("src",i).css({width:n+"px",height:a+"px",marginLeft:"-"+n/2+"px",marginTop:"-"+a/2+"px"})})}(t,n,a)}window.imgfix=t}(),$(function(){$(".imgfix").each(function(){imgfix(this)})});

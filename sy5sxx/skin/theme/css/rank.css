@@ -1,0 +1,108 @@
+﻿// body{background-color: #FFF;}
+
+/* 排行top3 */
+.m-rank-top3{position: relative; height: 4.4rem;background: #FFF url(../images/bg-steps.png) 0 0 /100% 3.2rem no-repeat;}
+
+.m-rank-top3-item{width: 2rem;position: absolute;text-align: center;}
+.m-rank-top3-item .u-logo{width: 1.3rem;height: 1.3rem;border-radius: .25rem;}
+.m-rank-top3-item .u-rank-num{}
+.m-rank-top3-item .u-name{font-size: .28rem;color: #464646;text-align: center;margin-top: .65rem; white-space: nowrap;overflow: hidden;text-overflow: ellipsis;padding: 0 .1rem;}
+.m-rank-top3-item .u-download-num{font-size: .22rem;color: #AAAAAA;text-align: center;/* margin-top: .05rem; */}
+.m-rank-top3-item .u-btn-download{width: 1.2rem;height: .44rem;line-height: .44rem;border-width: 1px; margin-top: .05rem;  color: #3794FF;border-color: #3794FF;font-size: .28rem;}
+/* 第一名 */
+.m-rank-top3-item1{top: .76rem; left: 0;right: 0;margin: 0 auto;}
+.m-rank-top3-item1 .u-logo{width: 1.5rem;height: 1.5rem;}
+.m-rank-top3-item1 .u-name{margin-top: .77rem;}
+.m-rank-top3-item1:before{content:"";display: block;position: absolute;right: -.09rem;top: -.35rem; width:.87rem;height: .7rem;background: transparent url(../images/ic-king.png) 0 0 / 100% 100% no-repeat;}
+/* 二三名 */
+.m-rank-top3-item2{left: .6rem;top: 1.13rem;}
+.m-rank-top3-item3{right: .6rem;top: 1.13rem;}
+
+/* 排行类别 */
+.m-rank-type-box{background-color: #fff;padding-bottom: .7rem;padding-top: .2rem;}
+.m-rank-type-box .m-app-item-1{}
+.m-rank-type-box .m-app-item-1 .u-logo{width: 1.1rem;height: 1.1rem;}
+.m-rank-type-box .m-app-item-1 .u-text{}
+
+.swiper-rank-type .swiper-pagination-bullet {width: .14rem;height: .14rem;display: inline-block;border-radius: 100%;border: 1px solid #979797;background: transparent;opacity: 1;}
+.swiper-rank-type .swiper-pagination-bullets .swiper-pagination-bullet{margin: 0 .17rem;}
+.swiper-rank-type .swiper-pagination-bullet-active{background-color: #979797;}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{bottom: .2rem;}
+
+/* 每周精品 */
+.m-block-week-nice{height: 4.4rem; padding-top: .2rem; /* background: transparent url(../images/bg-img-3.jpg) 0 0 /100% 100% no-repeat; */}
+.m-block-week-nice.m-block .m-titler .u-href{color: #fff;}
+.m-block-week-nice .m-rank-item-a-1{margin-left: 0;}
+.m-block-week-nice .swiper-container{padding-left: .4rem;}
+.m-block-week-nice .m-broadcast-box{margin-left: 1.5rem;}
+
+/* 排行项 */
+.m-rank-item-wrapper{width: 7.1rem;margin: 0 auto;margin-top: .2rem; position: relative;background: #FFFFFF;-webkit-box-shadow: 0 4px 20px 0 rgba(0,0,0,0.10);box-shadow: 0 4px .25rem 0 rgba(0,0,0,0.10);border-radius: .2rem;padding-top: .8rem;}
+.m-rank-item-wrapper .u-tag{display: block;position: absolute;top: .2rem;border-radius: .05rem 0 0 .05rem; padding-left: .15rem; left: -.1rem; /* width: 1.9rem; */padding-right: .35rem; height: .5rem;line-height: .5rem;background-image: -webkit-linear-gradient(73deg, #FF9B00 0%, #FF6A48 94%);background-image: linear-gradient(73deg, #FF9B00 0%, #FF6A48 94%);font-size: .3rem;color: #FFFFFF;}
+.m-rank-item-wrapper .u-tag:after{content: "";display: block;width: 0;height: 0;border: .25rem solid transparent;border-right-color: #FFF;position: absolute; top: 0;right: -.12rem;transform: scaleX(.6);}
+.m-rank-item-wrapper .u-href{position: absolute;top: .3rem;right: .3rem;font-size: .26rem;color: #494949;}
+
+.m-rank-item-wrapper .m-app-item-4:last-child{border-radius: 0 0 .2rem .2rem;}
+/* app-item-4 */
+.m-app-item-4{position: relative; height: 1.7rem;background-color: #fff;}
+.m-app-item-4 a{display: block;height: 100%;padding: .2rem .4rem .2rem .8rem;position: relative;}
+.m-app-item-4 img{width: 1.3rem;height: 1.3rem;float: left;}
+.m-app-item-4 .u-rank{position: absolute;top: 0;bottom: 0;margin: auto; left: 0; display: block;width: .6rem;text-align: center; height: .4rem;line-height: .4rem;background-color: #FFB600;font-weight: bold; font-size: .3rem;color: #FFFFFF;border-radius: 0 .2rem .2rem 0;}
+.m-app-item-4 .m-center{margin-left: 1.5rem;min-height: .8rem;margin-right: 1rem;}
+.m-app-item-4 .m-center .u-name{display: block;font-size: .34rem;color: #444444;margin-top: .03rem;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.m-app-item-4 .m-center .u-type{display: block;font-size: .22rem;color: #B3B3B3;margin-top: .05rem;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.m-app-item-4 .m-center .u-type .ic-rank-tip{display: inline-block;width: .18rem;height: .16rem;background: transparent 0 0 /100% 100%;}
+.m-app-item-4 .m-center .u-type .ic-rank-tip.ic-up{background-image: url(../images/ic-up.png);}
+.m-app-item-4 .m-center .u-type .ic-rank-tip.ic-down{background-image: url(../images/ic-down2.png);}
+.m-app-item-4 .m-center .u-type .ic-rank-tip-num{font-size: .24rem;font-weight: bold;font-style: normal;margin-left: .05rem;}
+.m-app-item-4 .m-center .u-type .ic-rank-tip-num.ic-up{color: #FF6C47;}
+.m-app-item-4 .m-center .u-type .ic-rank-tip-num.ic-down{color: #458CFF}
+.m-app-item-4 .m-center .u-desc{display: block;font-size: .24rem;color: #979797;margin-top: .02rem;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.m-app-item-4 .m-right{position: absolute;top: .55rem; right: .5rem;font-size: 0;}
+.m-app-item-4 .m-right .icon-download{display: inline-block;width: .6rem;height: .6rem;background: url(../images/ic-down.png) 0 0 /100% 100%;}
+.m-app-item-4:not(:last-child):after{position: absolute;display: block;content: "";bottom: 1px;left: 0;right: 0;margin: 0 auto;width: 6rem;height: 1px;background-image: url(../images/ic-line.png);background-size: 100% 100%;}
+
+/* 顶部游戏轮播 */
+.cswiper-container{width: 100%;height: 3.1rem;margin: 0 auto;overflow: hidden;position: relative;}
+.cswiper-container	.cswiper-slide:nth-child(1),
+.cswiper-container	.cswiper-slide:nth-child(3){display: none;}
+.cswiper-container	.cswiper-slide:nth-child(2){width: 6.8rem;height: 2.9rem;left: 0.35rem;top: 0.1rem;z-index: 99;}
+.cswiper-container	.cswiper-slide{/* background: #f9a119 url(../images/404-pic-logo.png) center center /1rem 1rem no-repeat; */background-image: linear-gradient(269deg, #f9a119 0%, #FB7E38 100%); overflow: hidden; position: absolute;display: block;width: 6.324rem;height: 2.7rem;left: 0.588rem;top: 0.2rem; vertical-align: middle;z-index: 11;border-radius: .1rem;-webkit-box-shadow: 0 0 .2rem 0 rgba(0,0,0,.2);box-shadow: 0 0 .2rem 0 rgba(0,0,0,.2);}
+.cswiper-container	.cswiper-fill{z-index: 1;opacity: 0;}
+.cswiper-container	.cswiper-active{width: 6.8rem;height: 2.9rem;margin-top: 0;}
+.cswiper-container .cswiper-slide a{display: block;position: relative;overflow: hidden;height: 100%;}
+.cswiper-container .cswiper-slide a:before{content: "热推";letter-spacing: .04rem; font-size: .28rem;color: #FFF; display: block;position: absolute;width: 1.1rem;height: .5rem;line-height: .5rem;top: 0;left: 0; text-align: center; background: url(../images/bg-purple.png) 0 0 /100% 100%;}
+.cswiper-container .cswiper-slide a img{width: 100%; height: 100%;}
+.cswiper-container .cswiper-slide a .u-title{font-size: .28rem;padding: 0 .2rem;text-align: center;color: #FFFFFF;line-height: 28px;position: absolute;left: 0;bottom: 0; height: .6rem;line-height: .6rem;width: 100%; background-image: linear-gradient(-180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);}
+
+/**/
+.m-block .m-titler .t-left .is-active{background-image: linear-gradient(90deg, #FCC100 0%, #F99E1C 100%);}
+.m-v2-top-wrapper{background-image: linear-gradient(269deg, #F9A119 0%, #FB7E38 100%);padding-bottom: .2rem;padding-top: .2rem;}
+/* 水平榜项修改 */
+.m-rank-item-a .img-box-wrapper{position: relative;display: block;width: 1.3rem;height: 1.3rem;margin: 0 auto;margin-top: .2rem;overflow: visible;}
+.m-rank-item-a .img-box-wrapper img{margin-top: 0;border-radius: .3rem;}
+.m-rank-item-a-1,
+.m-rank-item-a-1 a{overflow: visible;}
+.m-rank-item-a-1.m-rank-item-a .img-box-wrapper:before{position: absolute;content: "";display: block;width: .87rem;height: .7rem;right: -.32rem;top: -.32rem;background: url(../images/ic-king.png) 0 0 /100% 100%;}
+
+.m-broadcast-box .icon {margin-top: .05rem;}
+.m-block.m-block-week-nice .m-titler{padding-right: 0;}
+
+/* 今日推荐 */
+.m-rec-today{width: 7.02rem;margin: 0 auto; background-image: -webkit-linear-gradient(90deg, #FFFFFF 0%, #FFFAF1 100%);background-image: linear-gradient(90deg, #FFFFFF 0%, #FFFAF1 100%);border: 1px solid #ECECEC;box-shadow: 0 2px .2rem 0 rgba(176,170,170,0.30);border-radius: .2rem;}
+.m-rec-today .m-top{overflow: hidden;padding: .12rem .1rem;}
+.m-rec-today .m-top .u-tag{float: left;display: block;height: .44rem;line-height: .44rem;padding: 0 .14rem;font-size: .26rem;color: #FFFFFF;letter-spacing: 2px;font-weight: bold;border-radius: .2rem;background-image: -webkit-linear-gradient(73deg, #FF9B00 0%, #FF6A48 94%);background-image: linear-gradient(73deg, #FF9B00 0%, #FF6A48 94%);}
+.m-rec-today .m-top .u-score{float: right;line-height: .4rem; color: #FF6B46;letter-spacing: 0;font-size: .22rem;}
+.m-rec-today .m-top .u-score b{font-size: .32rem;}
+.m-rec-today .m-middle-game{position: relative;height: 1.5rem; overflow: hidden;padding: 0 .3rem;margin-top: .18rem;margin-bottom: .26rem;}
+.m-rec-today .m-middle-game img{float: left; width: 1.5rem;height: 1.5rem;}
+.m-rec-today .m-middle-game .m-center-des{overflow: hidden; height: 100%; margin-left: 1.68rem;margin-right: 1.3rem;}
+.m-rec-today .m-middle-game .m-center-des .u-name{display: block; font-size: .36rem;color: #464646;margin-top: .07rem;}
+.m-rec-today .m-middle-game .m-center-des .u-type{display: block; font-size: .28rem;color: #AAAAAA;margin-top: .03rem; white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.m-rec-today .m-middle-game .m-center-des .u-desc{display: block; font-size: .24rem;color: #464646; white-space: nowrap;margin-top: .03rem; overflow: hidden;text-overflow: ellipsis;}
+.m-rec-today .m-middle-game .m-right{position: absolute;right: .3rem;top: .45rem;}
+.m-rec-today .m-middle-game .u-btn-download{display: inline-block;width: 1.2rem;text-align: center; height: .6rem;line-height: .6rem;border-radius: .3rem;font-size: .3rem;color: #FF6C47;}
+.m-broadcast-box {padding: 0 .4rem;margin-top: .2rem;height: .36rem;overflow-y: hidden;}
+.m-broadcast-box .icon {background-image: url(../images/ic-activity-orange.png);position: relative;top: -.07rem;}
+.m-broadcast-box .u-text,
+.m-broadcast-box .u-text a{color: #FF8E13;}

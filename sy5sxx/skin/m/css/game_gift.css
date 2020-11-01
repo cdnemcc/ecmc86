@@ -1,0 +1,10 @@
+﻿body{background-color: #fff;}
+.m-block-gift-box{padding: .3rem;padding-bottom: .1rem;margin-top: .2rem;}
+.m-titler-1{padding-left: 0;}
+.icon-line{opacity: .5}
+/* 游戏项-middle */
+.m-middle-game{padding: 0;margin-top: 0;}
+.m-middle-game .m-center-des{margin-right: 1.7rem;margin-left: 1.7rem;}
+.m-middle-game .m-center-des .u-type{white-space: nowrap;overflow: hidden;-ms-text-overflow: ellipsis;text-overflow: ellipsis;}
+.m-middle-game .m-right{width: 1.6rem;right:0;}
+.m-middle-game .m-right .u-btn-download{border-width: 1px;width: 1.6rem;}

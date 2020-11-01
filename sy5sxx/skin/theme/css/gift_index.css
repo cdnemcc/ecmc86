@@ -1,0 +1,23 @@
+﻿.m-block-gift-box{padding: 0;padding-bottom: .3rem;}
+.m-t-padding{padding: .3rem;padding-bottom: 0;}
+
+.m-gift-item-index{height: auto;}
+.m-gift-item-index .m-center-des{margin-right: 1.2rem;}
+.m-gift-item-index .m-center-des .u-name{font-size: .28rem;margin-top: .12rem;}
+.m-gift-item-index .m-center-des .u-type{font-size: .22rem;margin-top: .05rem;}
+.m-gift-item-index .m-right{width: 1.2rem;}
+.m-gift-item-index .m-right .u-btn-download{width: 1.2rem;}
+.m-gift-item-index .m-pregress {position: relative;display: inline-block;width: 3.2rem;height: .3rem;line-height: .3rem; background: #e4e2e2;text-align: center; border-radius: .17rem;overflow: hidden;margin-top: .15rem;font-size: .2rem;color: #000;}
+.m-gift-item-index .m-pregress .u-num{position: relative;z-index: 99;color: #FFF;}
+.m-gift-item-index .m-pregress .u-progress-bar {position: absolute; top: 0;left: 0;height: .3rem;line-height: .28rem;background-image: -webkit-linear-gradient(-90deg, #FB7D38 0%, #F9A118 100%);background-image: linear-gradient(-90deg, #FB7D38 0%, #F9A118 100%);border-radius: 0 .15rem .15rem 0;width: 90%;color: #FFF;text-align: right;}
+
+.m-title-c{margin-top: .3rem;}
+.m-gift-intro{font-size: .26rem;color: #AAAAAA;line-height: .3rem;}
+/*  */
+.m-block-hot-app{}
+.m-block-hot-app .m-titler-1{margin-bottom: 0;padding-left: .3rem;}
+.m-block-hot-app .m-app-item-1 .u-text{width: 1.3rem;margin: .1rem auto 0; text-align: center; white-space: normal;font-size: .24rem; line-height: .28rem;height: .52rem;overflow: hidden;}
+
+.m-hover-game-box{position: relative;z-index: 9; box-shadow: none; margin-top: .3rem; top: auto; bottom: 0;display: block;}
+.m-naver-bottom{margin-top: 0;}
+.m-share-list-box{position: absolute;}

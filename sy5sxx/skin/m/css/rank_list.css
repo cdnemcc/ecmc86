@@ -1,0 +1,28 @@
+body{background-color: #fff;}
+.m-rank-nav .u-nav-item{width: auto;padding:  0 .2rem;}
+.m-backbar .u-logo{height: .51rem;vertical-align: middle;}
+/*  */
+.m-rank-top3{height: 4.14rem;border-bottom: 1px solid #FFF1D1; background: none;}
+.m-rank-top3-item{width: 2.36rem;height: 3.4rem; background: #FFF;top: auto; bottom: 0;}
+.m-rank-top3-item:after{top: -.34rem; left: 0;right: 0;margin: 0 auto; display: block;position: absolute;color: #FFF;font-size: .3rem;font-weight: bolder; line-height: .6rem; width: .68rem;height: .68rem;background: transparent 0 0 /100% 100% no-repeat;}
+.m-rank-top3-item .u-logo{margin-top: .5rem}
+.m-rank-top3-item .u-name{margin-top: .1rem;height: .38rem;overflow: hidden; padding: 0 5px;}
+.m-rank-top3-item2{left: 0;}
+.m-rank-top3-item2:after{content: "";background-image: url(../images/ic-silver.png);}
+.m-rank-top3-item3{right: 0;}
+.m-rank-top3-item3:after{content: "";background-image: url(../images/ic-copper.png);}
+.m-rank-top3-item1{z-index: 9; width: 2.8rem; height: 3.64rem;box-shadow: 0 0 0.23rem 0 rgba(255,241,209,1);border-radius: .05rem .05rem 0 0;}
+.m-rank-top3-item1:after{content: "";background-image: url(../images/ic-gold.png);}
+.m-rank-top3-item1:before{background: none;}
+.m-rank-top3-item1 .u-logo{margin-top: .54rem}
+/*.m-rank-top3-item .u-btn-download {color: #FF6D48;border-color: #FF6D48;}*/
+.m-rank-item-container{width: 7.1rem;margin: 0 auto;padding-bottom: .3rem; background: #FFFFFF;-webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,0.10);box-shadow: 0 2px 10px 0 rgba(0,0,0,0.10);border-radius: .2rem;}
+.m-rank-item-wrapper{padding-top: 0;overflow: hidden;-webkit-box-shadow: none;box-shadow: none;}
+/*  */
+/*  */
+.m-top-broadcast-wrapper{padding-top: .2rem;background-image: linear-gradient(269deg, #F9A119 0%, #FB7E38 100%);}
+.m-top-broadcast-wrapper .m-broadcast-box{padding: 0 .36rem;}
+.m-top-broadcast-wrapper .m-broadcast-box .icon {margin-top: .06rem;background-image: url(../../images/v2/icons-rank/ic-activity.png);}
+.m-top-broadcast-wrapper .m-broadcast-box .m-horizongtal-wrapper {margin-left: .5rem;height: .4rem;}
+.m-top-broadcast-wrapper .m-broadcast-box .m-horizongtal-wrapper .u-text,
+.m-top-broadcast-wrapper .m-broadcast-box .m-horizongtal-wrapper .u-text a{color: #fff !important; white-space: nowrap; -ms-text-overflow: ellipsis;text-overflow: ellipsis;overflow: hidden;}
